@@ -1,0 +1,94 @@
+{
+  "luis_schema_version": "3.2.0",
+  "versionId": "0.1",
+  "name": "IntelligentBot",
+  "desc": "NLP Example",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "None"
+    },
+    {
+      "name": "OrderStatus"
+    },
+    {
+      "name": "SetupMeeting"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [
+    {
+      "name": "datetimeV2",
+      "roles": []
+    },
+    {
+      "name": "number",
+      "roles": []
+    },
+    {
+      "name": "personName",
+      "roles": []
+    }
+  ],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "book a room for monday for a meeting with kyle",
+      "intent": "SetupMeeting",
+      "entities": []
+    },
+    {
+      "text": "check on order 89234",
+      "intent": "OrderStatus",
+      "entities": []
+    },
+    {
+      "text": "order staus for order 7236",
+      "intent": "OrderStatus",
+      "entities": []
+    },
+    {
+      "text": "schedule a conference with jane on monday",
+      "intent": "SetupMeeting",
+      "entities": []
+    },
+    {
+      "text": "schedule a meeting for friday with jack",
+      "intent": "SetupMeeting",
+      "entities": []
+    },
+    {
+      "text": "setup a meeting with john on tuesday",
+      "intent": "SetupMeeting",
+      "entities": []
+    },
+    {
+      "text": "setup meeting with lisa tuesday",
+      "intent": "SetupMeeting",
+      "entities": []
+    },
+    {
+      "text": "show me the status of order number 5893",
+      "intent": "OrderStatus",
+      "entities": []
+    },
+    {
+      "text": "status of 71368",
+      "intent": "OrderStatus",
+      "entities": []
+    },
+    {
+      "text": "what is the status for order 5439",
+      "intent": "OrderStatus",
+      "entities": []
+    }
+  ],
+  "settings": []
+}
