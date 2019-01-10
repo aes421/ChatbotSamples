@@ -1,4 +1,4 @@
-const LUIS_URL = enter luis url here;
+const LUIS_URL = "enter luis url here";
 
 const restify = require('restify');
 const builder = require('botbuilder');
